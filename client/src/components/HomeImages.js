@@ -11,17 +11,14 @@ import image8 from '../images/Kermit_the_Frog.jpg'
 const HomeImages = props => {
   return (
     <div>
-    <img src={image} alt="" />
-    <img src={image2} alt="" />
-    <img src={image3} alt="" />
-    <img src={image4} alt="" />
-    <img src={image5} alt="" />
-    <img src={image6} alt="" />
-    <img src={image7} alt="" />
-    <img src={image8} alt="" />
-
-
-
+      <img src={image} alt="" />
+      <img src={image2} alt="" />
+      <img src={image3} alt="" />
+      <img src={image4} alt="" />
+      <img src={image5} alt="" />
+      <img src={image6} alt="" />
+      <img src={image7} alt="" />
+      <img src={image8} alt="" />
     </div>
   )
 }
