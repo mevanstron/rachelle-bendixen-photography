@@ -4,9 +4,7 @@ const SiteTitle = props => {
   return (
     <div>
       <div className="site-title">Rachelle Bendixen</div>
-      <div>Commerical & Editorial  |  Portrait  |  Still & Video</div>
-      <div>{'512.809.1922'}</div>
-      <div>rachelle@bendixen.us</div>
+      <div className="site-sub-title">{'512.809.1922'} | <a href="mailto:rachelle@bendixen.us">rachelle@bendixen.us</a></div>
     </div>
   )
 }

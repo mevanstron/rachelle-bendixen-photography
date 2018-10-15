@@ -16,4 +16,12 @@
 .site-title {
   font-family: 'Quattrocento';
   font-size: 35px;
+  text-align: center;
+}
+
+.site-sub-title {
+  font-family: 'Lato';
+  font-size: small;
+  text-align: center;
+
 }
