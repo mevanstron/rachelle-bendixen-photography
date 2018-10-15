@@ -9,10 +9,6 @@ import PhotoSeries from './components/PhotoSeries';
 import Videos from './components/Videos';
 import ConceptualPersonal from './components/ConceptualPersonal';
 
-
-
-
-
 import './App.css';
 
 class App extends Component {
@@ -20,16 +16,18 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <SiteTitle />
-          <NavBar />
-
-          <Route exact path="/" component={HomeImages} />
-          <Route exact path="/commercial_editorial" component={CommercialEditorial} />
-          <Route exact path="/portraits" component={Portraits} />
-          <Route exact path="/photo_series" component={PhotoSeries} />
-          <Route exact path="/videos" component={Videos} />
-          <Route exact path="/conceptual_personal" component={ConceptualPersonal} />
-
+          <div className="header">
+            <SiteTitle />
+            <NavBar />
+          </div>
+          <div>
+            <Route exact path="/" component={HomeImages} />
+            <Route exact path="/commercial_editorial" component={CommercialEditorial} />
+            <Route exact path="/portraits" component={Portraits} />
+            <Route exact path="/photo_series" component={PhotoSeries} />
+            <Route exact path="/videos" component={Videos} />
+            <Route exact path="/conceptual_personal" component={ConceptualPersonal} />
+          </div>
 
 
 

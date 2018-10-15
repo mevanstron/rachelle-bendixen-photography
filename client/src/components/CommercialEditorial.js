@@ -10,7 +10,7 @@ import image8 from '../images/Kermit_the_Frog.jpg'
 
 const CommercialEditorial = props => {
   return (
-    <div>
+    <div className="images">
       <h1>ID: Commercial & Editorial</h1>
       <img src={image} alt="" />
       <img src={image2} alt="" />

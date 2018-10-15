@@ -8,9 +8,11 @@ import image6 from '../images/8732896_orig.jpg'
 import image7 from '../images/9633580_orig.jpg'
 import image8 from '../images/Kermit_the_Frog.jpg'
 
+import '../App.css';
+
 const HomeImages = props => {
   return (
-    <div>
+    <div className="images">
       <h1>ID: Hello</h1>
       <img src={image3} alt="" />
       <img src={image} alt="" />

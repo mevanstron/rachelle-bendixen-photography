@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  height: 300px;
+}
+
+.images {
+  position: absolute;
+  left: 300px;
+
+}
+
+.images img {
+  height: 400px;
+  margin: 5px;
+}
