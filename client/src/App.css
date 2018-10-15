@@ -12,3 +12,8 @@
   height: 400px;
   margin: 5px;
 }
+
+.site-title {
+  font-family: 'Quattrocento';
+  font-size: 35px;
+}
