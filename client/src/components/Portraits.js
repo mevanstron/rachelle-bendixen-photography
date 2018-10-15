@@ -8,10 +8,11 @@ import image6 from '../images/8732896_orig.jpg'
 import image7 from '../images/9633580_orig.jpg'
 import image8 from '../images/Kermit_the_Frog.jpg'
 
+import '../App.css';
+
 const Portraits = props => {
   return (
-    <div>
-      <h1>ID: Portraits</h1>
+    <div className="images">
       <img src={image6} alt="" />
       <img src={image5} alt="" />
       <img src={image} alt="" />

@@ -13,7 +13,6 @@ import '../App.css';
 const HomeImages = props => {
   return (
     <div className="images">
-      <h1>ID: Hello</h1>
       <img src={image3} alt="" />
       <img src={image} alt="" />
       <img src={image2} alt="" />
